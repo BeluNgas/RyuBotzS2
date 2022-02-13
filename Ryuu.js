@@ -255,7 +255,7 @@ let settingstatus = 0;
 if (new Date() * 1 - settingstatus > 1000) {
 let _uptime = process.uptime() * 1000;
 let uptimer = clockString(_uptime);
-await Ryuu.setStatus(`${botname} | ⏲️ Runtime : ${uptimer}`).catch((_) => _);
+await XrzzZ.setStatus(`${botname} | ⏲️ Runtime : ${uptimer}`).catch((_) => _);
 settingstatus = new Date() * 1;
 }}
 //Ucapan & Dll
